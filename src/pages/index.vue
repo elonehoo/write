@@ -20,6 +20,7 @@ onMounted(() => {
     after: () => {
       // vditor.value is a instance of Vditor now and thus can be safely used here
       vditor.value!.setValue("**Hey, welcome to writer.**");
+      vditor.value?.focus()
     },
   });
 });
