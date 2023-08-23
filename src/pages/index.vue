@@ -14,6 +14,7 @@ onMounted(() => {
     },
     preview:{
       hljs:{
+        defaultLang: 'javascript',
         style: 'github-dark'
       }
     },
