@@ -22,3 +22,6 @@ dist-ssr
 *.sln
 *.sw?
 cache
+auto-imports.d.ts
+components.d.ts
+typed-router.d.ts
