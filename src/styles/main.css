@@ -34,6 +34,14 @@ html {
   background: #18181a !important;
 }
 
+.vditor-ir__link {
+  text-decoration: none !important;
+}
+
+.vditor-ir__node--expand .vditor-ir__marker--bracket {
+  color: var(--ir-paren-color) !important;
+}
+
 .vditor {
   --text-color: #e5e5e5;
   --border-color: transform;
@@ -46,7 +54,7 @@ html {
   --toolbar-height: 35px;
   --toolbar-divider-margin-top: 8px;
   --textarea-background-color: transform;
-  --textarea-text-color: #24292e;
+  --textarea-text-color: #e5e5e5;
   --resize-icon-color: var(--toolbar-icon-color);
   --resize-background-color: var(--toolbar-background-color);
   --resize-hover-icon-color: var(--panel-background-color);
@@ -56,8 +64,8 @@ html {
   --blockquote-color: #6a737d;
   --ir-heading-color: #525252;
   --ir-title-color: #808080;
-  --ir-bi-color: #0033b3;
-  --ir-link-color: #008000;
-  --ir-bracket-color: #0000ff;
-  --ir-paren-color: #008000;
+  --ir-bi-color: #eaecef;
+  --ir-link-color: #637f8b;
+  --ir-bracket-color: #65b787;
+  --ir-paren-color: #e5e5e5;
 }
