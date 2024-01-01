@@ -27,27 +27,27 @@
     "release": "bumpp package.json --commit --push --tag"
   },
   "dependencies": {
-    "@unocss/reset": "^0.58.0",
-    "@vueuse/core": "^10.7.0",
+    "@unocss/reset": "^0.58.2",
+    "@vueuse/core": "^10.7.1",
     "@vueuse/head": "^2.0.0",
-    "unocss": "^0.58.0",
-    "vditor": "^3.9.7",
-    "vue": "^3.3.13",
+    "unocss": "^0.58.2",
+    "vditor": "^3.9.8",
+    "vue": "^3.4.3",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.4.6",
+    "@antfu/eslint-config": "^2.6.1",
     "@iconify-json/carbon": "^1.1.27",
-    "@types/node": "^20.10.5",
-    "@vitejs/plugin-vue": "^4.5.2",
-    "@vitest/coverage-v8": "^1.1.0",
-    "@vitest/ui": "^1.1.0",
+    "@types/node": "^20.10.6",
+    "@vitejs/plugin-vue": "^4.6.2",
+    "@vitest/coverage-v8": "^1.1.1",
+    "@vitest/ui": "^1.1.1",
     "@vue/test-utils": "^2.4.3",
     "bumpp": "^9.2.1",
     "eslint": "^8.56.0",
     "happy-dom": "^12.10.3",
     "typescript": "^5.3.3",
-    "unplugin-auto-import": "^0.17.2",
+    "unplugin-auto-import": "^0.17.3",
     "unplugin-deploy-info": "^0.0.3",
     "unplugin-vue-components": "^0.26.0",
     "vite": "^5.0.10",
@@ -59,7 +59,7 @@
     "vite-plugin-package-configs": "^0.0.12",
     "vite-plugin-pages": "^0.32.0",
     "vite-plugin-terminal-log": "^0.0.1",
-    "vitest": "^1.1.0",
-    "vue-tsc": "^1.8.26"
+    "vitest": "^1.1.1",
+    "vue-tsc": "^1.8.27"
   }
 }
