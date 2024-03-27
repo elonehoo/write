@@ -16,7 +16,7 @@ dependencies:
     version: 2.0.0(vue@3.4.21)
   unocss:
     specifier: ^0.58.6
-    version: 0.58.6(postcss@8.4.35)(rollup@3.28.1)(vite@5.2.6)
+    version: 0.58.6(postcss@8.4.38)(rollup@3.28.1)(vite@5.2.6)
   vditor:
     specifier: ^3.10.2
     version: 3.10.2
@@ -56,8 +56,8 @@ devDependencies:
     specifier: ^8.57.0
     version: 8.57.0
   happy-dom:
-    specifier: ^13.10.1
-    version: 13.10.1
+    specifier: ^14.3.9
+    version: 14.3.9
   typescript:
     specifier: ^5.4.3
     version: 5.4.3
@@ -99,7 +99,7 @@ devDependencies:
     version: 0.0.1
   vitest:
     specifier: ^1.4.0
-    version: 1.4.0(@types/node@20.11.30)(@vitest/ui@1.4.0)(happy-dom@13.10.1)
+    version: 1.4.0(@types/node@20.11.30)(@vitest/ui@1.4.0)(happy-dom@14.3.9)
   vue-tsc:
     specifier: ^1.8.27
     version: 1.8.27(typescript@5.4.3)
@@ -692,7 +692,7 @@ packages:
     resolution: {integrity: sha512-+xrD2BWLpvHKNmX2QbpdpsBaWnRxahMwJjO+KZk2JOElj5nSmKezyS1B4u+QbHMTX69t4ukm6hh9lsYQ7GHCKA==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/code-frame': 7.23.5
+      '@babel/code-frame': 7.24.2
       '@babel/parser': 7.23.9
       '@babel/types': 7.23.9
     dev: true
@@ -709,7 +709,7 @@ packages:
     resolution: {integrity: sha512-I/4UJ9vs90OkBtY6iiiTORVMyIhJ4kAVmsKo9KFc8UOxMeUfi2hvtIBsET5u9GizXE6/GFSuKCTNfgCswuEjRg==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/code-frame': 7.23.5
+      '@babel/code-frame': 7.24.2
       '@babel/generator': 7.23.6
       '@babel/helper-environment-visitor': 7.22.20
       '@babel/helper-function-name': 7.23.0
@@ -2695,7 +2695,7 @@ packages:
       sirv: 2.0.4
     dev: false
 
-  /@unocss/postcss@0.58.6(postcss@8.4.35):
+  /@unocss/postcss@0.58.6(postcss@8.4.38):
     resolution: {integrity: sha512-jTwu7llhRm7luscsk0JekCeo6RS2W98CXiCJRE1H6IDQnjGQQ/9uRAqW4wuLsv7OQ1ThF8m9NKEj0wFJv7ePNg==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -2707,7 +2707,7 @@ packages:
       css-tree: 2.3.1
       fast-glob: 3.3.2
       magic-string: 0.30.8
-      postcss: 8.4.35
+      postcss: 8.4.38
     dev: false
 
   /@unocss/preset-attributify@0.58.6:
@@ -2874,7 +2874,7 @@ packages:
       strip-literal: 2.0.0
       test-exclude: 6.0.0
       v8-to-istanbul: 9.2.0
-      vitest: 1.4.0(@types/node@20.11.30)(@vitest/ui@1.4.0)(happy-dom@13.10.1)
+      vitest: 1.4.0(@types/node@20.11.30)(@vitest/ui@1.4.0)(happy-dom@14.3.9)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2921,7 +2921,7 @@ packages:
       pathe: 1.1.2
       picocolors: 1.0.0
       sirv: 2.0.4
-      vitest: 1.4.0(@types/node@20.11.30)(@vitest/ui@1.4.0)(happy-dom@13.10.1)
+      vitest: 1.4.0(@types/node@20.11.30)(@vitest/ui@1.4.0)(happy-dom@14.3.9)
     dev: true
 
   /@vitest/utils@1.4.0:
@@ -4017,7 +4017,7 @@ packages:
       eslint: 8.57.0
       eslint-import-resolver-node: 0.3.9
       eslint-module-utils: 2.8.0(@typescript-eslint/parser@6.20.0)(eslint-import-resolver-node@0.3.9)(eslint@8.57.0)
-      get-tsconfig: 4.7.2
+      get-tsconfig: 4.7.3
       is-glob: 4.0.3
       minimatch: 3.1.2
       resolve: 1.22.4
@@ -4325,7 +4325,7 @@ packages:
       '@typescript-eslint/eslint-plugin': 7.3.1(@typescript-eslint/parser@7.3.1)(eslint@8.57.0)(typescript@5.4.3)
       '@typescript-eslint/utils': 7.1.1(eslint@8.57.0)(typescript@5.4.3)
       eslint: 8.57.0
-      vitest: 1.4.0(@types/node@20.11.30)(@vitest/ui@1.4.0)(happy-dom@13.10.1)
+      vitest: 1.4.0(@types/node@20.11.30)(@vitest/ui@1.4.0)(happy-dom@14.3.9)
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -4862,8 +4862,8 @@ packages:
       duplexer: 0.1.2
     dev: false
 
-  /happy-dom@13.10.1:
-    resolution: {integrity: sha512-9GZLEFvQL5EgfJX2zcBgu1nsPUn98JF/EiJnSfQbdxI6YEQGqpd09lXXxOmYonRBIEFz9JlGCOiPflDzgS1p8w==}
+  /happy-dom@14.3.9:
+    resolution: {integrity: sha512-0kPQchwthekcYpYN8CvCiq+/z5bqFYDLbTxZ+yDLwT8AFRVJDFadShHRxp3VAZRy7a5isOZ1j/LzsU1dtAIZMQ==}
     engines: {node: '>=16.0.0'}
     dependencies:
       entities: 4.5.0
@@ -6126,7 +6126,7 @@ packages:
       rollup: 3.28.1
       typescript: 5.4.3
     optionalDependencies:
-      '@babel/code-frame': 7.23.5
+      '@babel/code-frame': 7.24.2
     dev: true
 
   /rollup-plugin-dts@6.0.2(rollup@3.28.1)(typescript@5.4.3):
@@ -6140,7 +6140,7 @@ packages:
       rollup: 3.28.1
       typescript: 5.4.3
     optionalDependencies:
-      '@babel/code-frame': 7.23.5
+      '@babel/code-frame': 7.24.2
     dev: true
 
   /rollup@3.28.1:
@@ -6676,7 +6676,7 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /unocss@0.58.6(postcss@8.4.35)(rollup@3.28.1)(vite@5.2.6):
+  /unocss@0.58.6(postcss@8.4.38)(rollup@3.28.1)(vite@5.2.6):
     resolution: {integrity: sha512-HBstDtC6KKD5yCYh5hHpPdHGZai0B/iLlDwkOIK+xfQYrvl8tNBvKfRz3xgiaI5MJ+fLmEOxbfXQIjleU1A0iA==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -6692,7 +6692,7 @@ packages:
       '@unocss/cli': 0.58.6(rollup@3.28.1)
       '@unocss/core': 0.58.6
       '@unocss/extractor-arbitrary-variants': 0.58.6
-      '@unocss/postcss': 0.58.6(postcss@8.4.35)
+      '@unocss/postcss': 0.58.6(postcss@8.4.38)
       '@unocss/preset-attributify': 0.58.6
       '@unocss/preset-icons': 0.58.6
       '@unocss/preset-mini': 0.58.6
@@ -7057,7 +7057,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.3
 
-  /vitest@1.4.0(@types/node@20.11.30)(@vitest/ui@1.4.0)(happy-dom@13.10.1):
+  /vitest@1.4.0(@types/node@20.11.30)(@vitest/ui@1.4.0)(happy-dom@14.3.9):
     resolution: {integrity: sha512-gujzn0g7fmwf83/WzrDTnncZt2UiXP41mHuFYFrdwaLRVQ6JYQEiME2IfEjU3vcFL3VKa75XhI3lFgn+hfVsQw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -7093,7 +7093,7 @@ packages:
       chai: 4.3.10
       debug: 4.3.4
       execa: 8.0.1
-      happy-dom: 13.10.1
+      happy-dom: 14.3.9
       local-pkg: 0.5.0
       magic-string: 0.30.7
       pathe: 1.1.2
