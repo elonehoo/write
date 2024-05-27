@@ -27,18 +27,18 @@
     "release": "bumpp package.json --commit --push --tag"
   },
   "dependencies": {
-    "@unocss/reset": "^0.60.2",
+    "@unocss/reset": "^0.60.3",
     "@vueuse/core": "^10.9.0",
     "@vueuse/head": "^2.0.0",
-    "unocss": "^0.60.2",
+    "unocss": "^0.60.3",
     "vditor": "^3.10.4",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.17.0",
-    "@iconify-json/carbon": "^1.1.32",
-    "@types/node": "^20.12.11",
+    "@antfu/eslint-config": "^2.19.0",
+    "@iconify-json/carbon": "^1.1.34",
+    "@types/node": "^20.12.12",
     "@vitejs/plugin-vue": "^5.0.4",
     "@vitest/coverage-v8": "^1.6.0",
     "@vitest/ui": "^1.6.0",
