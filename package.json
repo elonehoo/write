@@ -27,16 +27,16 @@
     "release": "bumpp package.json --commit --push --tag"
   },
   "dependencies": {
-    "@unocss/reset": "^0.60.4",
-    "@vueuse/core": "^10.10.0",
+    "@unocss/reset": "^0.61.0",
+    "@vueuse/core": "^10.11.0",
     "@vueuse/head": "^2.0.0",
-    "unocss": "^0.60.4",
+    "unocss": "^0.61.0",
     "vditor": "^3.10.4",
-    "vue": "^3.4.27",
-    "vue-router": "^4.3.2"
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.21.0",
+    "@antfu/eslint-config": "^2.21.1",
     "@iconify-json/carbon": "^1.1.35",
     "@types/node": "^20.14.2",
     "@vitejs/plugin-vue": "^5.0.5",
@@ -50,7 +50,7 @@
     "unplugin-auto-import": "^0.17.6",
     "unplugin-deploy-info": "^0.0.3",
     "unplugin-vue-components": "^0.27.0",
-    "vite": "^5.2.13",
+    "vite": "^5.3.1",
     "vite-inspector": "^0.1.4",
     "vite-plugin-alias": "^0.1.1",
     "vite-plugin-auto-env": "^0.0.2",
