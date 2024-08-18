@@ -1,51 +1,51 @@
 {
-  "compilerOptions": {
-    "target": "es2016",
-    "jsx": "preserve",
-    "lib": [
-      "DOM",
-      "ESNext"
-    ],
-    "baseUrl": ".",
-    "module": "ESNext",
-    "moduleResolution": "node",
-    "paths": {
-      "~components/*": [
-        "src/components/*"
-      ],
-      "~composables/*": [
-        "src/composables/*"
-      ],
-      "~pages/*": [
-        "src/pages/*"
-      ],
-      "~styles/*": [
-        "src/styles/*"
-      ],
-      "~/*": [
-        "src/*"
-      ]
+    "compilerOptions": {
+        "target": "es2016",
+        "jsx": "preserve",
+        "lib": [
+            "DOM",
+            "ESNext"
+        ],
+        "baseUrl": ".",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "paths": {
+            "~components/*": [
+                "src/components/*"
+            ],
+            "~composables/*": [
+                "src/composables/*"
+            ],
+            "~pages/*": [
+                "src/pages/*"
+            ],
+            "~styles/*": [
+                "src/styles/*"
+            ],
+            "~/*": [
+                "src/*"
+            ]
+        },
+        "resolveJsonModule": true,
+        "types": [
+            "vite/client",
+            "vite-plugin-pages/client",
+            "vitest/globals"
+        ],
+        "strict": true,
+        "strictNullChecks": true,
+        "noUnusedLocals": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true
     },
-    "resolveJsonModule": true,
-    "types": [
-      "vite/client",
-      "vite-plugin-pages/client",
-      "vitest/globals"
+    "references": [
+        {
+            "path": "./tsconfig.node.json"
+        }
     ],
-    "strict": true,
-    "strictNullChecks": true,
-    "noUnusedLocals": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true
-  },
-  "references": [
-    {
-      "path": "./tsconfig.node.json"
-    }
-  ],
-  "exclude": [
-    "dist",
-    "node_modules"
-  ]
+    "exclude": [
+        "dist",
+        "node_modules"
+    ]
 }
