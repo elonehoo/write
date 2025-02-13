@@ -1,17 +1,17 @@
-/// <reference types="vitest" />
-import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
-import Components from 'unplugin-vue-components/vite'
+import UnoCss from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import DeployInfo from 'unplugin-deploy-info/vite'
-import UnoCss from 'unocss/vite'
-import Pages from 'vite-plugin-pages'
+import Components from 'unplugin-vue-components/vite'
+/// <reference types="vitest" />
+import { defineConfig } from 'vite'
 import Inspector from 'vite-inspector'
 import Alias from 'vite-plugin-alias'
-import PKG from 'vite-plugin-package-configs'
 import AutoEnv from 'vite-plugin-auto-env'
 import Chai from 'vite-plugin-chai'
 import Classify from 'vite-plugin-classify'
+import PKG from 'vite-plugin-package-configs'
+import Pages from 'vite-plugin-pages'
 import TerminalLog from 'vite-plugin-terminal-log'
 
 export default defineConfig({
