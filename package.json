@@ -50,7 +50,7 @@
     "unplugin-auto-import": "^19.1.1",
     "unplugin-deploy-info": "^0.0.3",
     "unplugin-vue-components": "^28.4.1",
-    "vite": "^6.2.3",
+    "vite": "^7.3.1",
     "vite-inspector": "^0.1.4",
     "vite-plugin-alias": "^0.1.1",
     "vite-plugin-auto-env": "^0.0.2",
