@@ -60,6 +60,6 @@
     "vite-plugin-pages": "^0.32.5",
     "vite-plugin-terminal-log": "^0.0.1",
     "vitest": "^3.0.9",
-    "vue-tsc": "^2.2.8"
+    "vue-tsc": "^3.3.1"
   }
 }
