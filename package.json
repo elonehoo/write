@@ -44,7 +44,7 @@
     "@vitest/ui": "^3.2.7",
     "@vue/test-utils": "^2.5.1",
     "bumpp": "^12.3.0",
-    "eslint": "^9.39.5",
+    "eslint": "^10.13.0",
     "happy-dom": "^21.0.4",
     "typescript": "^5.9.3",
     "unplugin-auto-import": "^19.3.0",
