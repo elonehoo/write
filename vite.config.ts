@@ -7,7 +7,6 @@ import Components from 'unplugin-vue-components/vite'
 import { defineConfig } from 'vite'
 import Inspector from 'vite-inspector'
 import Alias from 'vite-plugin-alias'
-import AutoEnv from 'vite-plugin-auto-env'
 import Chai from 'vite-plugin-chai'
 import Classify from 'vite-plugin-classify'
 import PKG from 'vite-plugin-package-configs'
@@ -56,9 +55,11 @@ export default defineConfig({
     UnoCss(),
 
     // https://github.com/elonehoo/vite-plugin-alias
+    // useConfig rewrites tsconfig.json with 4-space indent on every build,
+    // which fails the ESLint jsonc rules from @antfu/eslint-config v9.
+    // Paths stay in tsconfig.json; Vite aliases still come from the plugin.
     Alias({
-      useConfig: true,
-      useTypescript: true,
+      useConfig: false,
     }),
 
     // https://github.com/elonehoo/vite-plugin-package-configs
@@ -66,9 +67,6 @@ export default defineConfig({
 
     // https://github.com/wip-elonehoo/vite-plugin-chai
     Chai(),
-
-    // https://github.com/wip-elonehoo/vite-plugin-auto-env
-    AutoEnv(),
 
     // https://github.com/wip-elonehoo/vite-plugin-classify
     Classify(),
